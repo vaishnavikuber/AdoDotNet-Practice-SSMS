@@ -9,13 +9,27 @@ namespace EmployeePayRollAdo.Net
             Console.WriteLine("----------Employee PayRoll----------");
             EmployeeModel model = new EmployeeModel();
             EmployeeRepository repository = new EmployeeRepository();
-            EmployeeInput();
+            //EmployeeInput();
             
-            repository.GetAllEmployee();
-
-            //Update();
-            //Delete();
             //repository.GetAllEmployee();
+
+            //EmployeeUpdate();
+            //EmployeeDelete();
+            //repository.GetAllEmployee();
+
+
+
+
+            CustomerRepository customerRepo = new CustomerRepository();
+            // customerRepo.AddCustomer();
+            //customerRepo.UpdateCustomer();
+            customerRepo.DeleteCustomer();
+
+
+
+
+
+
         }
 
         public static void EmployeeInput()
@@ -36,7 +50,7 @@ namespace EmployeePayRollAdo.Net
             
         }
 
-        public static void Update()
+        public static void EmployeeUpdate()
         {
             EmployeeRepository repository = new EmployeeRepository();
             EmployeeModel model = new EmployeeModel();
@@ -47,7 +61,7 @@ namespace EmployeePayRollAdo.Net
             repository.UpdateEmployee(model);
         }
 
-        public static void Delete()
+        public static void EmployeeDelete()
         {
             EmployeeRepository repository = new EmployeeRepository();
             
