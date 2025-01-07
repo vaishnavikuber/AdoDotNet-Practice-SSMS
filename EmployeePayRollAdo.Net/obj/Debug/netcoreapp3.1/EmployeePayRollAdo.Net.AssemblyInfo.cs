@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeePayRollAdo.Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf1a67c86d6d9884034899952c1239a2af461f46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525fe664959874810a7dadc0cce42c56535334e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeePayRollAdo.Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeePayRollAdo.Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
